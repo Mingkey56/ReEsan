@@ -1,0 +1,39 @@
+=== BP_ENEMY FIX START ===
+Loaded /Game/AI/BP_Enemy.BP_Enemy type=Blueprint
+Generated class=BP_Enemy_C
+
+--- CDO interesting properties ---
+  ai_controller_class = <Object '/Script/AIModule.AIController' (0x00007FF3BF0632E8) Class 'Class'>
+  find_camera_component_when_view_target = True
+  jump_force_time_remaining = 0.0
+  CanAttack = True
+  AttackRange = 150.0
+  IsStun = False
+  IsStunned <err Character: Failed to find property 'IsStunned' for attribute 'IsStunned' on 'BP_Enemy_C'>
+  BaseDamage <err Character: Failed to find property 'BaseDamage' for attribute 'BaseDamage' on 'BP_Enemy_C'>
+  AiHP = 100.0
+  TargetActor <err Character: Failed to find property 'TargetActor' for attribute 'TargetActor' on 'BP_Enemy_C'>
+  can_attack <err Character: Failed to find property 'can_attack' for attribute 'can_attack' on 'BP_Enemy_C'>
+  attack_range <err Character: Failed to find property 'attack_range' for attribute 'attack_range' on 'BP_Enemy_C'>
+  is_stunned <err Character: Failed to find property 'is_stunned' for attribute 'is_stunned' on 'BP_Enemy_C'>
+  base_damage <err Character: Failed to find property 'base_damage' for attribute 'base_damage' on 'BP_Enemy_C'>
+
+--- Blueprint new_variables ---
+new_variables error: Blueprint: Failed to find property 'new_variables' for attribute 'new_variables' on 'Blueprint'
+
+--- SCS components ---
+SCS error Blueprint: Failed to find property 'simple_construction_script' for attribute 'simple_construction_script' on 'Blueprint'
+
+--- Graph nodes / pins ---
+
+=== APPLYING FIXES ===
+Created montage <Object '/Game/AI/AM_EnemyMelee.AM_EnemyMelee' (0x0000023AF2E5EE00) Class 'AnimMontage'>
+montage tweak err AnimMontage: Failed to find property 'blend_in_time' for attribute 'blend_in_time' on 'AnimMontage'
+
+Changes:
+  - CDO CanAttack=True
+  - CDO IsStun=False
+  - CDO AttackRange=220.0
+Compiled BP_Enemy
+Saved BP_Enemy
+=== BP_ENEMY FIX DONE ===
